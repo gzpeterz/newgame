@@ -23,7 +23,6 @@ public class TestGame {
 			String statement = s.getWords();
 			System.out.println("=======================================================" );
 			System.out.println(name + "的真心话是 " );
-			System.out.println("heelo");
 			scanner.nextLine();
 			System.out.println( statement);
 		}
