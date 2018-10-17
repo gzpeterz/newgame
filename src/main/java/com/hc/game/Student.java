@@ -8,6 +8,4 @@ package com.hc.game;
 public interface Student {
 	public String getName() ;
 	public String getWords();
-	//zuochengggggg
-	//zuocheng
 }
