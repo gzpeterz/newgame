@@ -14,6 +14,8 @@ public class TestGame {
 		Random random = new Random();
 		Scanner scanner = new Scanner(System.in);
 		List<Student> list = new ArrayList<Student>();
+		Student wang = new Wang();
+		list.add(wang);
 		while(true) {
 			int index = random.nextInt(list.size());
 			Student s = list.get(index);
