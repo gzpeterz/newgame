@@ -13,7 +13,9 @@ public class TestGame {
 		// 产生 随机对象
 		Random random = new Random();
 		Scanner scanner = new Scanner(System.in);
+		Zuocheng zc = new Zuocheng();
 		List<Student> list = new ArrayList<Student>();
+		list.add(zc);
 		while(true) {
 			int index = random.nextInt(list.size());
 			Student s = list.get(index);
